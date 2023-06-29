@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,6 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'Poppins', sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -34,4 +36,17 @@ ul{
 li{
   height: 42px; 
   vertical-align:text-top; 
+}
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  z-index: 2 !important;
+}
+.wave img{
+  width: 100%;
+}
+
+footer{
+  z-index: 1000000000000000000000000000 !important;
 }
