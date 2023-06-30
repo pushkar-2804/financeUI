@@ -28,25 +28,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-ul{
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+.designList{
   list-style-image: url(./assets/marker.svg);
   flex-direction: column;
   padding: 0;
 }
-li{
+.list{
   height: 42px; 
   vertical-align:text-top; 
 }
 
 .wave{
   position: absolute;
-  bottom: 0;
+  bottom: -568px;
   z-index: 2 !important;
 }
 .wave img{
   width: 100%;
-}
-
-footer{
-  z-index: 100 !important;
 }
