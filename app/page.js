@@ -5,8 +5,8 @@ import iconImg from "./assets/iconImg.svg";
 import Todo from "./components/ToDo";
 export default function Home() {
   return (
-    <>
-      <section className="bg-bgImg w-full overflow-scroll">
+    <div className="bg-bgImg bg-no-repeat bg-cover">
+      <section className=" w-full overflow-scroll text-white">
         <main className="flex flex-col items-center justify-between pt-24 relative">
           {/* Header */}
           <div className="flex flex-col items-center justify-center">
@@ -100,6 +100,6 @@ export default function Home() {
         </div>
       </section>
       <Todo />
-    </>
+    </div>
   );
 }

@@ -34,7 +34,7 @@ const Todo = () => {
   );
 
   return (
-    <div className="flex flex-col items-center py-10 bg-bgImg">
+    <div className="flex flex-col items-center py-10">
       <h1 className="text-4xl m-16 font-bold">The Todo App</h1>
       <div className="p-6 flex flex-row">
         <input
