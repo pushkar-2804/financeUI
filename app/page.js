@@ -4,7 +4,7 @@ import bgBtm from "./assets/backgroundBottom.svg";
 import iconImg from "./assets/iconImg.svg";
 export default function Home() {
   return (
-    <section className="h-screen bg-bgImg w-full relative overflow-hidden">
+    <section className="h-screen bg-bgImg w-full overflow-hidden">
       <main className="flex flex-col items-center justify-between pt-24 h-[569]">
         {/* Header */}
         <div className="flex flex-col items-center justify-center">
@@ -19,7 +19,8 @@ export default function Home() {
             Get Started
           </button>
         </div>
-        <div className="flex justify-between mt-4">
+        {/* List */}
+        <div className="flex justify-between mt-10">
           <ul className="text-3xl list-inside mt-28 ">
             <li className="mb-10">
               Expected Retirement Age <br />
@@ -68,7 +69,7 @@ export default function Home() {
         <div className="wave">
           <Image src={bgBtm} width={1526} height={790} alt="bg" className="" />
         </div>
-        <footer className="pt-16 flex flex-col items-center text-center">
+        <footer className="pt-8 flex flex-col items-center text-center relative z-30">
           <h3 className="text-6xl text-white font-semibold relative top-10">
             How it works?
           </h3>

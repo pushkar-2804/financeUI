@@ -48,5 +48,5 @@ li{
 }
 
 footer{
-  z-index: 1000000000000000000000000000 !important;
+  z-index: 100 !important;
 }
